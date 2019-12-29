@@ -11,7 +11,7 @@ from sklearn import datasets     # install scikit-learn
 from skimage import io           # install scikit-image
 
 filename = "images/pikachu.jpg"
-topk = 5
+topk = 200
 
 # read image from file
 image = io.imread(filename, as_gray=True)
